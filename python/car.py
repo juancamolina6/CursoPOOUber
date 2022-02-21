@@ -1,4 +1,4 @@
-from python.acoount import Account
+from acoount import Account
 
 
 class Car:
