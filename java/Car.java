@@ -1,13 +1,16 @@
-package java;
-
-
 class Car {
     Integer id;
     String license;
-    String drive;
+    Account driver;
     Integer passegenger;
-    
+
+    public Car(String license, Account driver){
+        this.license = license;
+        this.driver = driver;
+    }
+
+    void printDataCar() {
+        System.out.println("License: " + license + " Name Driver: " + driver.name);
+    }
+
 }
-// void printDataCar(){
-//     System.out.println("Lincense: "+ lincense + " Driver: "+ driver);
-// }
